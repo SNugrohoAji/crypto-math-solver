@@ -102,20 +102,20 @@ int main()
             case 6:
             {
                 string coba;
-				cout << "##### Prime Check #####" << endl;
-	            cout << "||||||||||||||||||||" << endl;
-	            cout << "VVVVVVVVVVVVVVVVVVVV" << endl;
-	            cout<<"Masukkan Angka : ";
-	   			cin>>num;
-	   			prime(num);
-	   			cout << "Apakah Anda Ingin Mencoba lagi (y/n)?";
-	   			cin >> coba;
-	   			if (coba == "Y" or coba== "y")
-	   			{
-	   				goto coba_lagi;
-				}
-				else 
-					break;
+		cout << "##### Prime Check #####" << endl;
+	        cout << "||||||||||||||||||||" << endl;
+	        cout << "VVVVVVVVVVVVVVVVVVVV" << endl;
+	        cout<<"Masukkan Angka : ";
+	   	cin>>num;
+	   	prime(num);
+	   	cout << "Apakah Anda Ingin Mencoba lagi (y/n)?";
+	   	cin >> coba;
+	   	if (coba == "Y" or coba== "y")
+	   	{
+	   		goto coba_lagi;
+		}
+		else 
+			break;
 	        }
 	        default:
 	        {
